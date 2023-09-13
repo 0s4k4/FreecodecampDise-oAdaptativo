@@ -2,21 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CatPhotoApp</title>
+    <title>Aplicacion de fotos para gato</title>
 </head>
 <body>
-    <main>
+
+
+    <section>
         <h1>Aplicacion de fotos de gatos</h1>
-        <h2>Fotos de gatos</h2>
-        <!---TODO: Añadir link a fotos de gatos-->
-        <p>Ver mas fotos de gatos en nuestra galeria</p>
-        <a href="https://freecatphotoapp.com">Ingresa a ver fotos de gatos</a>
-        <br>
-        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Gatito Naranja">
-        <!--<p><a href='https://freecatphotoapp.com'>Fotos de gatos</p> -->
+    </section>
+
+    <main>
+        <section>
+
+            <h2>Fotos de gatos</h2>
+
+            <p>Clickea aqui para tener mas <a href="#">fotos de gatos</a></p>
+
+            <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."></a>
+
+        </section>
+
+        <section>
+            <h2>Lista de gato</h2>
+            <h3>Cosas que aman los gatos:</h3>
+            <ul>
+                <li>Cat nip</li>
+                <li>Punteros laser</li>
+                <li>Lasaña</li>
+            </ul>
+            
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="rebanada de lasaña">
+                <figcaption>gatos <em>aman</em>la lasaña</figcaption>
+            </figure>
+
+
+            <h3>Cosas que odian los gatos</h3>
+
+            <ol>
+                <li>temperamiento irritante</li>
+                <li>truenos</li>
+                <li>otros gatos</li>
+
+                <figure>
+
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="cinco gatos en un campo">
+
+                    <figcaption>gatos <strong>odian</strong> otros gatos</figcaption>
+                </figure>
+            </ol>
+        </section>
+
+
+
+
+        <h2>formulario de gatos</h2>
+        <form action="#">
+
+            <fieldset>
+
+                <legend>Tu gato es un gato interior o exterior</legend>
+                <div class="form-check">
+                <input class="form-check-input" checked type="radio" name="indoor-outdoor" id="indoor" value="option1" checked>
+                <label class="form-check-label" for="indoor">
+                interior
+                </label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="indoor-outdoor" id="outdoor" value="option2">
+                <label class="form-check-label" for="outdoor">
+                Exterior
+                </label>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Cual es la personalidad de tu gato</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="amoroso" id="amoroso" value="amoroso" checked>
+                    Amoroso
+                  </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="perezoso" id="perezoso" value="perezoso" >
+                      Perezoso
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="energetico" id="energetico" value="energetico" >
+                      Energetico
+                    </label>
+                  </div>
+
+                  
+                  
+            </fieldset>
+            
+            <br>
+            <div>
+                <input type="text" name="catphourl" id="catphourl"  placeholder="url de foto de gato">
+
+                <button>envio de informacion</button>
+                
+              </div>
+
+        </form>
     </main>
+
+    <footer>
+        <p>todos los derechos reservados 0s4k4 2023</p>
+    </footer>
+
+    
     
 </body>
 </html>
